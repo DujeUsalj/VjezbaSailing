@@ -1,0 +1,124 @@
+.Step2 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(Sailing.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.Box {
+  width: 964px;
+  height: 660px;
+  /* margin-top: 168px; */
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Text {
+  margin-top: 70px;
+  /* width: 584px; */
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+.ButtonsRectangle {
+  margin-top: 50px;
+  /* width: 462px; */
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+}
+.Button {
+  width: 216px;
+  height: 66px;
+  background: #f5f5f5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: none;
+}
+.ButtonText {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.Space {
+  margin-left: 30px;
+}
+
+.ArrowContainer {
+  margin-top: 331px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ArrowButton {
+  margin-left: 230px;
+  width: 0px;
+  border: none;
+  outline: none;
+  background-color: none;
+  background: none;
+}
+
+.ArrowButton2 {
+  margin-right: 230px;
+  width: 0px;
+  border: none;
+  outline: none;
+  background-color: none;
+  background: none;
+}
+.Stepper {
+  /* position: absolute; */
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 924px;
+  height: 6px;
+  margin-top: 80px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 59px;
+}
+.Line2 {
+  background: rgba(255, 255, 255, 0.45);
+
+  border-radius: 59px;
+  width: 628px;
+}
+.Line1 {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 59px;
+  width: 296px;
+}
+.displayRow {
+  display: flex;
+  flex-direction: row;
+  width: 462px;
+}
+
+.spaceColumn {
+  margin-top: 30px;
+}

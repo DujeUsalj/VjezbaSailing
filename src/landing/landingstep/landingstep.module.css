@@ -1,0 +1,71 @@
+.Landing {
+  margin: 0;
+  height: 100vh;
+  background-image: url(Sailing.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.Rectangle {
+  position: absolute;
+  width: 100%;
+  height: 313px;
+  top: 277px;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.Text {
+  margin-top: 48px;
+  width: 636px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+}
+.Small {
+  width: 501px;
+  margin-top: 0px;
+  top: 519px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 60px;
+  color: #ffffff;
+}
+.Button {
+  position: absolute;
+  width: 216px;
+  height: 56px;
+  top: 774px;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.No {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin-top: 0px;
+  color: #000000;
+}
